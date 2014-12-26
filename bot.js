@@ -188,7 +188,7 @@
 
     function hasAdminAccess(nick) {
         var adminNicknames = ['sheppy', 'teoli', 'alispivak', 'fscholz', 'jms', 'hoosteno', 'jsx',
-                            'wbamberg', 'dcamp', 'HBloomer', 'jezdez', 'mars', 'openjck'];
+                            'wbamberg', 'dcamp', 'HBloomer', 'jezdez', 'mars', 'openjck', 'groovecoder'];
 
         return adminNicknames.indexOf(nick) !== -1;
     }

@@ -1,0 +1,26 @@
+{
+  "name": "sentinel",
+  "version": "1.0.0",
+  "description": "Watches out for spam edits on MDN",
+  "main": "app.js",
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "irc": "^0.3.7",
+    "mongojs": "^0.18.0",
+    "request": "^2.51.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:riverspirit/mdn-sentinel.git"
+  },
+  "author": "jsx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/riverspirit/mdn-sentinel/issues"
+  },
+  "homepage": "https://github.com/riverspirit/mdn-sentinel"
+}
